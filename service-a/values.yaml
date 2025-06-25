@@ -56,10 +56,10 @@ service:
     enabled: false
     config: {}
 keda:
-  enabled: true
+  enabled: false
   config: {}
 autoscaling:
-  enabled: true
+  enabled: false
   annotations: {}
   minReplicas: 1
   maxReplicas: 3
@@ -79,7 +79,7 @@ configMap:
   subPath: ""
   readOnly: true
 ingress:
-  enabled: true
+  enabled: false
   annotations: {}
   class: nginx
   issuer:
