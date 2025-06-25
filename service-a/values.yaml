@@ -51,7 +51,7 @@ service:
   annotations: {}
   port: 80
   targetPort: http
-  type: loadBalancer
+  type: LoadBalancer
   multiport:
     enabled: false
     config: {}
